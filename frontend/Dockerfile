@@ -13,7 +13,7 @@ RUN set -ex && \
     git \
     ca-certificates
 
-RUN npm config set registry https://mirrors.cloud.tencent.com/npm/
+RUN npm config set registry https://registry.npmjs.org
 
 WORKDIR /app
 
